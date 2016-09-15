@@ -338,7 +338,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define Y_HOME_DIR -1
 #define Z_HOME_DIR -1
 
-#define min_software_endstops false // If true, axis won't move to coordinates less than HOME_POS.
+#define min_software_endstops true // If true, axis won't move to coordinates less than HOME_POS.
 #define max_software_endstops true  // If true, axis won't move to coordinates greater than the defined lengths below.
 // Travel limits after homing
 #define X_MAX_POS 302    
@@ -372,7 +372,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 
 //Prusa I3
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 80, 2560, 184} // Pololu A4998
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {160, 160, 2560, 184}  // Pololu DRV8825
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {160, 160, 2560, 186}  // Pololu DRV8825
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80, 160, 5120, 100} //PRINTBOX Blanc
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200.0*8/3,760*1.1}  // default steps per unit for Ultimaker
